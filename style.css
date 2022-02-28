@@ -1,0 +1,31 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#primeiraDiv{
+  background-color: red;
+  width: 250px;
+  height: 500px;
+  position: relative;
+
+}
+
+#container{
+  width:500px;
+  height: 600px;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#filhoPrimeiraDiv{
+  width: 250px;
+  height: 30px;
+  position: absolute;
+  bottom: 0px;
+  left: 7px;
+}
