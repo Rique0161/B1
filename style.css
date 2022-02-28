@@ -27,5 +27,20 @@ body{
   height: 30px;
   position: absolute;
   bottom: 0px;
-  left: 7px;
+
+}
+
+#texto{
+  position: absolute;
+  left: 10px;
+  width: 187px;
+  height: 19px;
+  border: none;
+  border-radius: 13px;
+}
+
+#icone{
+  position: absolute;
+  right: 9px;
+  bottom: 4px;
 }
