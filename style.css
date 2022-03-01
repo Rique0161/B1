@@ -5,7 +5,7 @@ body{
 }
 
 #primeiraDiv{
-  background-color: red;
+  background-color: white;
   width: 250px;
   height: 500px;
   position: relative;
@@ -34,7 +34,7 @@ body{
   position: absolute;
   left: 10px;
   width: 187px;
-  height: 19px;
+  height: 20px;
   border: none;
   border-radius: 13px;
 }
@@ -44,3 +44,65 @@ body{
   right: 9px;
   bottom: 4px;
 }
+
+#cabecalho{
+  background-color: #B3B3B3;
+  width: 100%;
+  height:38px;
+}
+
+#bolinhas{
+  height: 13px;
+  width: 50px;
+  padding-left: 7px;
+  padding-top: 10px;
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+}
+
+#dot1{
+  background-color: #ff5551;
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#dot2{
+  background-color: #ffc024;
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
+  display: inline-block;
+
+}
+
+#dot3{
+  background-color: #2eca3b;
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
+  display: inline-block;
+
+}
+
+#info{
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  margin-left: 215px;
+  margin-top: 6px;
+}
+
+#meioCabecalho{
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin-left: 108px;
+  margin-top: 3px;
+  position: absolute;
+}
+
+/*Cor das mensagens: #0b7dff*/
