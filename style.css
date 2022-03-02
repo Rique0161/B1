@@ -41,10 +41,22 @@ body{
   border-radius: 13px;
 }
 
-#icone{
+#icone1{
   position: absolute;
   right: 9px;
   bottom: 4px;
+}
+
+#icone2{
+  position: absolute;
+  right: 9px;
+  bottom: 30px;
+}
+
+#icone3{
+  position: absolute;
+  right: 9px;
+  bottom: 55px;
 }
 
 #cabecalho{
@@ -112,4 +124,61 @@ body{
 
 #texto{
   background-color: #B3B3B3;
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+.mensagensEsquerda{
+  /*background-color: blue;*/
+  height: 20px;
+  width: 220px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: 15px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15px;
+}
+
+.mensagensDireita{
+  /*background-color: green;*/
+  height: 20px;
+  width: 220px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: 15px;
+  text-align: right;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15px;
+}
+
+#mensagem1{
+
+}
+
+#mensagem2{
+
+}
+
+#mensagem3{
+
+}
+
+#mensagem4{
+
+}
+
+#mensagem5{
+
+}
+
+#mensagem6{
+
+}
+
+#mensagem7{
+
+}
+
+#mensagem8{
+
 }

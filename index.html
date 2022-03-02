@@ -6,6 +6,12 @@
     <link rel="stylesheet" href="style.css">
 
     <title>B1</title>
+
+    <!--Link da fonte das mensagens-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
   </head>
   <body>
 
@@ -31,13 +37,24 @@
 
         </div>
 
-        <ul>
-          <li id="valor"></li>
-        </ul>
+            <div id="mensagem1" class="mensagensEsquerda">Olá, qual é o seu nome?</div>
+            <div id="mensagem2" class="mensagensDireita"></div>
+            <div id="mensagem3" class="mensagensEsquerda"><a id="primeiroLink" href="henrique1.png" download rel="noopener noreferrer" target="_blank">
+             Imagem 1</a></div>
+            <div id="mensagem4" class="mensagensDireita"></div>
+            <div id="mensagem5" class="mensagensEsquerda"><a id="segundoLink" href="henrique2.png" download rel="noopener noreferrer" target="_blank">
+             Imagem 2</a></div>
+            <div id="mensagem6" class="mensagensDireita"></div>
+            <div id="mensagem7" class="mensagensEsquerda"><a id="terceiroLink" href="henrique3.png" download rel="noopener noreferrer" target="_blank">
+             Imagem 3</a></div>
+            <div id="mensagem8" class="mensagensDireita"></div>
+
           <div id="filhoPrimeiraDiv">
 
             <input type="text" name="" id="texto">
-              <img src="send.png" alt="" id="icone" onclick="adicionar()">
+              <img src="send.png" alt="" id="icone1" onclick="verificarPrimeiraResposta()">
+              <img src="send.png" alt="" id="icone2" onclick="verificarSegundaResposta()">
+              <img src="send.png" alt="" id="icone3" onclick="verificarTerceiraResposta()">
           </div>
 
       </div>
